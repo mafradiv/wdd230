@@ -119,6 +119,7 @@ main {
 .activity-list {
     list-style-type: none; /* Remove bullets */
     padding-left: 0; /* Remove default left padding for lists */
+    
 }
 
 .activity-list li {
