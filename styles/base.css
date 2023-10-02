@@ -41,6 +41,7 @@ nav ul {
 
 nav ul li {
     margin-bottom: 10px; /* Add margin between each list item to stack them vertically */
+    display: inline-block;
 }
 
 nav ul li a {
@@ -119,16 +120,28 @@ main {
 .activity-list {
     list-style-type: none; /* Remove bullets */
     padding-left: 0; /* Remove default left padding for lists */
-    
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: space-between; /* Distribute items evenly */
 }
 
 .activity-list li {
-    position: relative; /* Position for pseudo-elements */
-    margin-bottom: 10px;
-    padding-left: 25px; /* Add left padding to create space for numbers */
-    font-size: 16px; /* Adjust font size as needed */
+    width: calc(33.33% - 10px); /* Set each item to take up 1/3 of the available space with spacing in between */
+    background-color: #457B9D;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
 }
-
+/* Lesson 2 and Activity 2 Links */
+.activity-list li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.activity-list li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
 .activity-list li::before {
     content: "0" counter(activity) ":"; /* Use a counter to generate numbers */
     counter-increment: activity; /* Increment the counter for each item */
