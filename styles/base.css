@@ -51,6 +51,7 @@ nav ul li a {
     padding: 10px 15px; /* Add padding to create clickable area */
     display: block; /* Display list items as block elements to stack them */
     font-size: 35px; /* Increase the font size for the menu links */
+    
 }
 
 /* Main Content Styles */
