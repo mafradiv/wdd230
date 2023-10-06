@@ -171,23 +171,15 @@ footer {
     padding: 10px 0;
     max-width: 1000px;
     margin: 0 auto;
-    
+    padding: 40px 0;
 }
 
 footer p {
     margin: 0;
-}
-/*Style the country name and flag */
-.country {
-    display: inline;
-    margin-right: 5px;
 }
 
 footer img {
     height: 20px;
     vertical-align: middle;
     margin-left: 5px;
-    margin: 10px;
-    margin-right: 5px;
-    margin-bottom: 20;
 }
