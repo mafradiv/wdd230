@@ -1,0 +1,92 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora&family=Open+Sans:wght@300;700&display=swap');
+
+
+/* Header Styles */
+header {
+    background-color: #457B9D;
+    color: white;
+    text-align: center; /* Center text within the header */
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Navigation Menu Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #333; /* Add background color to the navigation menu */
+    max-width: 1100px;
+    margin: 0 auto;
+}
+nav ul li {
+    margin-bottom: 10px; /* Add margin between each list item to stack them vertically */
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Set text color for the navigation links */
+    font-weight: bold;
+    padding: 10px 15px; /* Add padding to create clickable area */
+    display: block; /* Display list items as block elements to stack them */
+    font-size: 35px; /* Increase the font size for the menu links */
+    
+}
+/* Main Content Styles */
+/* Main Content Styles */
+main {
+    padding: 20px; /* Add some padding to the sides of the content */
+    display: grid; /* Use CSS Grid for layout */
+    grid-template-columns: 1fr; /* Arrange cards in a single column */
+    gap: 20px; /* Add spacing between cards */
+    max-width: 1100px;
+    margin: 0 auto;
+    
+}
+
+.card h3 {
+    background-color:#457B9D; /* Background color for the h3 header (e.g., orange) */
+    color: white; /* Text color for the h3 header */
+    padding: 20px 0; /* Add padding to the h3 header */
+    border-radius: 4px; /* Add rounded corners to the h3 header */
+    margin: 0; /* Remove default margin */
+    font-size: 30px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+footer p {
+    margin: 0;
+}
+/*Style the country name and flag */
+.country {
+    display: inline;
+    margin-right: 5px;
+}
+
+footer img {
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin: 10px;
+    margin-right: 5px;
+    margin-bottom: 20;
+}
