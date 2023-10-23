@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Francisco Diaz Vasquez - WDD 230 - Web Fronted Development</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="icon" href="images/fire.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+</head>
+<body>
+    <header>
+        <img src="images/my-photo.jpg" alt="Header Image">
+        <h1>Lima Chamber of Commerce</h1>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" target="_blank">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#" target="_blank">Join</a></li>
+           
+        </ul>
+    </nav>    
+    <main>
+        <div class="hero-box">
+            <picture>
+                <img src="images/pexels-photo.jpg" alt="hero-image">
+            </picture>
+        </div>
+        <div class="button-box">
+            <a class="join-button" href="#">Join the chamber</a>
+        </div>
+        <h2 class="section-title">Lima Chamber of Commerce</h2>
+        <section class="card">
+            <h3>Learning Activities</h3>
+            <ul class="activity-list">
+                <li>
+                    <span class="icon">&#128197;</span> <!-- Unicode character for a calendar icon -->
+                    <span class="number">W1.</span>
+                    <a href="lesson01/holygrail.html" target="_blank">Lesson 1 holygrail</a>
+                </li>
+                <li>
+                    <span class="icon">&#128197;</span> <!-- Unicode character for a calendar icon -->
+                    <span class="number">W2.</span>
+                    <a href="lesson02/design.html" target="_blank">Lesson 2 design</a>
+                    <span class="separator">|</span>
+                    <a href="lesson02/design-principles.html" target="_blank">design-principles</a>
+                </li>    
+                <li>
+                    <span class="icon">&#128197;</span> <!-- Unicode character for a calendar icon -->
+                    <span class="number">W3.</span>
+                    <a href="https://codepen.io/Basic-English/pen/mdaaWqR" target="_blank">CP Pseudo Element</a>
+                    <span class="separator">|</span>
+                    <a href="https://codepen.io/Basic-English/pen/abPPWOd" target="_blank">CP Hamburger Menu</a>
+                </li>
+                
+            </ul>
+        </section>
+
+        <section class="card">
+            <h3>Information</h3>
+            <p>Weather:</p>
+            <p>Number of Visits</p>
+
+        </section>
+    </main>
+    <div class="stuff"><iframe src="https://maps.google.com/maps?q=YourLocation&amp;output=embed" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+    <footer>
+        <p>&copy; <span id="current-year"></span></p>
+        <p>Marco Francisco Díaz Vásquez</p>
+        
+        <p class="country">Perú</p>
+        <img src="images/flag.png" alt="Perú">
+        <p id="lastModified"></p>
+    </footer>
+
+
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/mobile.js"></script>
+</body>
+</html>
