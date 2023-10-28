@@ -28,15 +28,46 @@ header h1 {
     color: white;
     
 }
-.card{
-    border: 1px solid black; /* Add a border with your desired color */
-    border-radius: 5px; /* Add rounded corners to the border */
+.hero-box {
+    position: relative;
     max-width: 1000px;
-    margin: 40px auto;
-    
-    
+    height: 400px;
+    margin: 0 auto;
+}
+  
+.hero-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 
 }
+  
+.button-box {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    margin: 1.5rem;
+    
+}
+  
+.join-button {
+    margin: 0;
+    padding: .25rem;
+    background-color: #457B9D;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+  
+.events , .weather , .members , div{
+    border: 1px solid black; /* Add a border with your desired color */
+    border-radius: 10px; /* Add rounded corners to the border */
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+
 
 
 /* Navigation Menu Styles */
@@ -68,95 +99,29 @@ nav ul li a {
 main {
     padding: 20px; /* Add some padding to the sides of the content */
     display: grid; /* Use CSS Grid for layout */
-    grid-template-columns: 1fr; /* Arrange cards in a single column */
-    gap: 20px; /* Add spacing between cards */
-    max-width: 1100px;
-    margin: 0 auto;
-    
-}
-/* Section Title Styles */
-.section-title {
-    font-size: 35px; /* Increase the font size for the section title */
-    margin-bottom: 20px; /* Add margin below the section title */
-    position: relative; /* Position for the underline */
-    display: inline-block; /* Display as inline block to fit content */
-    text-align: center;
+    grid-template-columns: 1fr 1fr; /* Arrange cards in a single column */
+    gap: 10px; /* Add spacing between cards */
 }
 
-.section-title::after {
-    content: ''; /* Add a pseudo-element for the underline */
-    position: absolute;
-    bottom: 0; /* Position it at the bottom */
-    left: 0; /* Start from the left */
-    width: 100%; /* Make it cover the entire width of the container */
-    height: 2px; /* Set the height of the underline */
-    background-color: black; /* Change the color of the underline (e.g., orange) */
-}
-
-
-
-
-.card h3 {
+section h3 {
     background-color:#457B9D; /* Background color for the h3 header (e.g., orange) */
     color: white; /* Text color for the h3 header */
-    padding: 20px 0; /* Add padding to the h3 header */
-    border-radius: 4px; /* Add rounded corners to the h3 header */
+     /* Add padding to the h3 header */
+    border-radius: 10px; /* Add rounded corners to the h3 header */
     margin: 0; /* Remove default margin */
+    display: grid;
     font-size: 30px;
     text-align: center;
-    max-width: 1000px;
-    margin: 0 auto;
     
 }
-.number {
-    font-weight: bold;
-    margin-right: 5px;
-}
 
-/* Course Links List Styles */
-.card ul {
-    list-style-type: none; /* Remove bullets from the list */
-    padding-left: 0; /* Remove default left padding for lists */
+
+section p {
+    margin: 10px;
         
 }
 
-.card ul li {
-    margin-bottom: 10px; /* Add margin between list items */
-    max-width: 1000px;
-    margin: 0 auto;
-    
-}
 
-.card p{
-    margin: 10px;
-    max-width: 1000px;
-    
-}
-
-/* Activity List Styles */
-.activity-list {
-    list-style-type: none; /* Remove bullets */
-    padding-left: 0; /* Remove default left padding for lists */
-       
-}
-
-.activity-list li {
-    padding: 10px;
-    border-radius: 5px;
-      
-}
-/* Lesson 2 and Activity 2 Links */
-.activity-list li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 16px;
-    
-}
-
-.activity-list li a:hover {
-    text-decoration: underline; /* Add underline on hover */
-}
 /* small view navigation */
 #menu {
 	font-size: 1.5rem;
@@ -252,29 +217,50 @@ main {
 
 /* Footer Styles */
 footer {
+    height: 100px;
     background-color: #333;
     color: white;
-    text-align: center;
-    padding: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    padding: 10px;
     max-width: 1000px;
     margin: 0 auto;
     
 }
 
-footer p {
-    margin: 0;
+.info {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
-/*Style the country name and flag */
-.country {
-    display: inline;
-    margin-right: 5px;
+.info p {
+    color: white;
+    font-size: 0.75rem;
+}
+.info a {
+    font-size: 0.75rem;
+    color: lightblue;
 }
 
-footer img {
-    height: 20px;
-    vertical-align: middle;
-    margin-left: 5px;
-    margin: 10px;
-    margin-right: 5px;
-    margin-bottom: 20;
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 2/3;
+    grid-row: 1/2;   
+}
+.social img {
+    width: auto;
+}
+#lastModified {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    color: white;
+    font-size: 1rem;
+    text-align: center
 }

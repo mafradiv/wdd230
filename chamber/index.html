@@ -1,83 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marco Francisco Diaz Vasquez - WDD 230 - Web Fronted Development</title>
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="icon" href="images/fire.ico">
-    <link rel="stylesheet" href="styles/normalize.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Marco Francisco Diaz Vasquez - WDD 230 - Web Fronted Development
+    </title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="icon" href="images/fire.ico" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+  </head>
+  <body>
     <header>
-        <img src="images/my-photo.jpg" alt="Header Image">
-        <h1>Lima Chamber of Commerce</h1>
+      <img src="images/chamber-of-Lima.png" alt="Header Image" />
+      <h1>Lima Chamber of Commerce</h1>
     </header>
     <nav>
-        <button id="menu"></button>
-        <ul class="navigation">
-            <li><a href="#">Home</a></li>
-            <li><a href="#" target="_blank">Discover</a></li>
-            <li><a href="#">Directory</a></li>
-            <li><a href="#" target="_blank">Join</a></li>
-           
-        </ul>
-    </nav>    
+      <button id="menu"></button>
+
+      <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#" target="_blank">Discover</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#" target="_blank">Join</a></li>
+      </ul>
+    </nav>
     <main>
-        <div class="hero-box">
-            <picture>
-                <img src="images/pexels-photo.jpg" alt="hero-image">
-            </picture>
-        </div>
-        <div class="button-box">
-            <a class="join-button" href="#">Join the chamber</a>
-        </div>
-        <h2 class="section-title">Lima Chamber of Commerce</h2>
-        <section class="card">
-            <h3>Learning Activities</h3>
-            <ul class="activity-list">
-                <li>
-                    <span class="icon">&#128197;</span> <!-- Unicode character for a calendar icon -->
-                    <span class="number">W1.</span>
-                    <a href="lesson01/holygrail.html" target="_blank">Lesson 1 holygrail</a>
-                </li>
-                <li>
-                    <span class="icon">&#128197;</span> <!-- Unicode character for a calendar icon -->
-                    <span class="number">W2.</span>
-                    <a href="lesson02/design.html" target="_blank">Lesson 2 design</a>
-                    <span class="separator">|</span>
-                    <a href="lesson02/design-principles.html" target="_blank">design-principles</a>
-                </li>    
-                <li>
-                    <span class="icon">&#128197;</span> <!-- Unicode character for a calendar icon -->
-                    <span class="number">W3.</span>
-                    <a href="https://codepen.io/Basic-English/pen/mdaaWqR" target="_blank">CP Pseudo Element</a>
-                    <span class="separator">|</span>
-                    <a href="https://codepen.io/Basic-English/pen/abPPWOd" target="_blank">CP Hamburger Menu</a>
-                </li>
-                
-            </ul>
-        </section>
+      <div class="hero-box">
+        <picture>
+          <img src="images/pexels-photo.jpg" alt="hero-image" />
+        </picture>
+      </div>
+      <div class="button-box">
+        <a class="join-button" href="#">Join the chamber</a>
+      </div>
 
-        <section class="card">
-            <h3>Information</h3>
-            <p>Weather:</p>
-            <p>Number of Visits</p>
+      <section class="events">
+        <h3>Events</h3>
+        <ul class="activity-list"></ul>
+      </section>
 
-        </section>
+      <section class="weather">
+        <h3>Weather</h3>
+        <p class="windchill"></p>
+      </section>
+
+      <section class="members">
+        <div>
+          <h3>Member 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quidem,
+            asperiores ab, sequi voluptas perspiciatis suscipit molestias itaque
+            libero officiis explicabo distinctio recusandae assumenda quasi? Non
+            pariatur sed a odit!
+          </p>
+        </div>
+
+        <div>
+          <h3>Member 2</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quidem,
+            asperiores ab, sequi voluptas perspiciatis suscipit molestias itaque
+            libero officiis explicabo distinctio recusandae assumenda quasi? Non
+            pariatur sed a odit!
+          </p>
+        </div>
+
+        <div>
+          <h3>Member 3</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quidem,
+            asperiores ab, sequi voluptas perspiciatis suscipit molestias itaque
+            libero officiis explicabo distinctio recusandae assumenda quasi? Non
+            pariatur sed a odit!
+          </p>
+        </div>
+      </section>
     </main>
-    <div class="stuff"><iframe src="https://maps.google.com/maps?q=YourLocation&amp;output=embed" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
-    <footer>
-        <p>&copy; <span id="current-year"></span></p>
-        <p>Marco Francisco Díaz Vásquez</p>
-        
-        <p class="country">Perú</p>
-        <img src="images/flag.png" alt="Perú">
-        <p id="lastModified"></p>
-    </footer>
 
+    <footer>
+      <div class="info">
+        <p>051-640-3535</p>
+        <address>
+          <a href="mailto: manager@limachamber.org">manager@limachamber.org</a>
+        </address>
+        <p>Lima Chamber of Commerce &copy; 2023 - Marco Diaz - WDD 230</p>
+      </div>
+      <div class="social">
+        <a href="https://facebook.com" target="_blank">
+          <img src="images/facebook.png" alt="fb icon" />
+        </a>
+        <a href="https://twitter.com" target="_blank">
+          <img src="images/twitter.png" alt="twitter icon" />
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <img src="images/instagram.png" alt="instagram icon" />
+        </a>
+      </div>
+
+      <p id="lastModified"></p>
+    </footer>
 
     <script src="scripts/getdates.js"></script>
     <script src="scripts/mobile.js"></script>
-</body>
+    <script src="scripts/windchill.js"></script>
+  </body>
 </html>
