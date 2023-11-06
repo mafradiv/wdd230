@@ -307,7 +307,7 @@ footer p {
 /*Style the country name and flag */
 .country {
     display: inline;
-    margin-right: 5px;
+    margin-right: 5px; 
 }
 
 footer img {
