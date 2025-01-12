@@ -1,0 +1,114 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora&family=Open+Sans:wght@300;700&display=swap');
+/*Header Styles*/
+header {
+    background-color: #457b9d;
+    text-align: center;/*Center text within the header*/
+    color: white;/*Set the text color to white*/
+    padding: 20px 0; /*Add padding to the top and bottm of the header*/
+    display: flex; /* Use flexbox for layout*/
+    justify-content: center; /* Center horizontally */
+    max-width: 1000px;/*Set a maximum width for the heather*/
+    margin: 0 auto; /*Center the header horizontally*/
+}
+
+header img {
+    height: auto; /*Maintain aspect ratio*/
+    
+}
+
+header h1 {
+    margin-left: 10px; /*Add small margin to the left of the name*/
+   font-size: 40px;
+   font-family: 'Open Sans', sans-serif;
+}
+
+/*Navigation Menu Styles*/
+
+nav ul {
+    flex-direction: column;
+    text-align: center;
+    background-color: #333;
+    padding-inline-start: 0px;
+    max-width: 1000px;
+    margin: 0 auto;
+    list-style: none;
+
+
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 10px;
+
+}
+
+section {
+    border: 1px solid black;
+    margin: 5px auto;
+    border-radius: 4px;
+
+}
+
+.section-title {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+
+}
+
+h3 {
+    background-color: #457b9d;
+    color: white;
+    border-top: 4px;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.number {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.card ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+
+
+/*Footer Styles*/
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+footer p {
+    margin: 0;
+}
+
+footer img {
+    
+    vertical-align: middle;
+    margin-left: 5px;
+    margin: 10px;
+    margin-bottom: 20px;
+}

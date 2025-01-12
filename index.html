@@ -3,7 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WDD 230</title>
+    <title>Marco F. Diaz V. - WDD 230 - Web Fronted Development</title>
+    <meta
+      name="description"
+      content="WDD 230 - Web Fronted Development - Marco F. Diaz - Course Assignment Portal"
+    />
+    <meta name="author" content="Marco Francisco Diaz Vasquez" />
+    <link rel="stylesheet" href="styles/base.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <img src="images/Marco.webp" alt="image header" width="75" height="120" />
+      <h1>Marco Diaz</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="lesson03/chamber-site-plan.html" target="_blank"
+            >Site PLan</a
+          >
+        </li>
+        <li><a href="chamber/index.html" target="_blank">Chamber</a></li>
+        <li><a href="https://www.byui.edu" target="_blank">BYU-Idaho</a></li>
+        <li>
+          <a
+            href="https://www.churchofjesuschrist.org/study/scriptures?lang=eng&platform=web"
+            target="_blank"
+            >Scripture</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div>
+      <h2 class="section-title">WDD 230: Web Fronted Development</h2>
+    </div>
+    <main>
+      <section class="card">
+        <h3>Learning Activities</h3>
+        <ul class="activity-list">
+          <li>
+            <span class="icon">&#128197;</span>
+            <!-- Unicode character for a calendar icon -->
+            <span class="number">W1</span>
+            <a href="week1/holygrail.html" target="_blank">Holy Layout</a>|
+            <a href="week1/holygrail.html" target="_blank">JS Pen</a>
+          </li>
+          <li>
+            <span class="icon">&#128197;</span>
+            <!-- Unicode character for a calendar icon -->
+            <span class="number">W2</span>
+            <a href="week1/holygrail.html" target="_blank">Holy Layout</a>|
+            <a href="week1/holygrail.html" target="_blank">JS Pen</a>
+          </li>
+        </ul>
+      </section>
+      <section class="card-info">
+        <h3>Information</h3>
+        <p>Weather:</p>
+        <p>
+          <span class="label">Number Of Visits:</span>
+          <span class="visits"></span>
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>
+        &copy; <span id="current-year"></span><br /><span>Marco Diaz</span
+        ><br /><span>Peru</span>
+      </p>
+      <img
+        src="images/fullsizeoutput_c5ff.jpeg"
+        alt="Peru flag"
+        width="70"
+        height="50"
+      />
+      <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+  </body>
 </html>
