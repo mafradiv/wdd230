@@ -37,12 +37,19 @@ nav ul {
 
 }
 
+nav ul li {
+    margin-bottom: 10px; /* Add margin between each list item to stack them vertically */
+    display: inline-block;
+}
+
 
 nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
+    padding: 15px 20px;
+    display: block;
 
 }
 
@@ -52,20 +59,38 @@ main {
     justify-content: center;
     margin: 0 auto;
     gap: 10px;
+    font-size: 0.8rem;
+    max-width: 767px;
+    
+    
 
+}
+
+main section {
+	margin: 0.5rem;
+	
+	
+	background-color: #eee;
+}
+
+main section h2 {
+	color: #536878;
 }
 
 section {
     border: 1px solid black;
     margin: 5px auto;
-    border-radius: 4px;
+    border-radius: 10px;
 
 }
 
 .section-title {
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 20px;
+    display: block;
+    margin: 0;
+    position: relative;
 
 }
 
@@ -77,7 +102,7 @@ h3 {
     font-size: 30px;
     text-align: center;
     margin: 0 auto;
-    width: 800px;
+    
 }
 
 .number {
@@ -88,6 +113,47 @@ h3 {
 .card ul{
     list-style-type: none;
     padding-left: 0;
+    
+}
+
+.card ul li {
+    margin-bottom: 10px; /* Add margin between list items */
+    
+  
+    margin: 0 auto;
+    
+}
+
+.card p{
+    margin: 10px;
+    
+    
+}
+
+
+/* Activity List Styles */
+.activity-list {
+    list-style-type: none; /* Remove bullets */
+    padding-left: 0; /* Remove default left padding for lists */
+       
+}
+
+.activity-list li {
+    padding: 10px;
+    border-radius: 5px;
+      
+}
+/* Lesson 2 and Activity 2 Links */
+.activity-list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+.activity-list li a:hover {
+    text-decoration: underline; /* Add underline on hover */
 }
 
 

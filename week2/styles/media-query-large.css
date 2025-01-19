@@ -1,5 +1,5 @@
 /* Styles for screens with a viewport width of 500px or greater */
-@media screen and (min-width: 500px) {
+@media (min-width: 500px) {
     header {
         background-color: black; /* Change the header background to black */
         color: white; /* Change the text color to white */
@@ -9,4 +9,6 @@
         display: grid; /* Enable grid layout */
         grid-template-columns: 1fr 1fr; /* Create two equal columns */
     }
+    
+    
 }
