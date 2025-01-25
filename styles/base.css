@@ -136,11 +136,13 @@ h3 {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    
+    
 }
 
 .stuff iframe {
     width: 100%; /* Full width of its parent container */
-    height: 400px; /* Fixed height, adjust as needed */
+    height: 300px; /* Fixed height, adjust as needed */
     max-width: 800px; /* Optional: limit the max width */
     border: none; /* Remove border if needed */
     margin: 0 auto; /* Center it horizontally */
