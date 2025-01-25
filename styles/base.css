@@ -131,6 +131,10 @@ h3 {
     
 }
 
+.card-info p {
+    text-align: center;
+}
+
 .stuff{
     display: flex;
     justify-content: center;
