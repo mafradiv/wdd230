@@ -1,0 +1,55 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora&family=Open+Sans:wght@300;700&display=swap');
+/*Header Styles*/
+header {
+    background-color: #457b9d;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+header img {
+    height: auto;
+    width: 80px;
+}
+
+/*Navigation Menu Styles*/
+nav ul {
+    flex-direction: column;
+    text-align: center;
+    background-color: #333;
+    padding-inline-start: 0px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 15px 20px;
+    display: block;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 10px;
+    font-size: 1rem;
+    
+}
+
+main section {
+    margin: 1rem;
+    background-color: #eee;
+}
