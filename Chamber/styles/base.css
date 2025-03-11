@@ -15,6 +15,14 @@ header img {
     width: 80px;
 }
 
+header h1 {
+    margin-left: 10px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
 /*Navigation Menu Styles*/
 nav ul {
     flex-direction: column;
@@ -27,7 +35,7 @@ nav ul {
 
 nav ul li {
     margin-bottom: 10px;
-    display: inline;
+    display: inline-block;
 }
 
 nav ul li a {
@@ -52,4 +60,37 @@ main {
 main section {
     margin: 1rem;
     background-color: #eee;
+}
+
+section {
+    border: 1px solid black;
+    margin: 5px auto;
+    border-radius: 4px;
+}
+
+
+h3 {
+    background-color: #457b9d;
+    color: white;
+    border-top: 4px;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer img {
+    vertical-align: middle;
+    margin-left: 5px;
+    margin: 10px;
+    margin-bottom: 20px;
+    height: auto;
+    width: 80px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    margin: 0 auto;
 }
