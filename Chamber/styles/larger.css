@@ -1,0 +1,89 @@
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	main {
+		display: grid;
+		grid-template-columns: 1fr 1fr; /* Two columns*/
+		grid-template-rows: auto auto; /*adjust rows automatically*/
+		grid-template-areas: "card card-info" "map map";
+		
+	}
+
+	.card {
+		grid-area: card;
+	}
+
+	.card-info { 
+		grid-area: card-info;
+	}
+
+	.stuff {
+		grid-area: map; /*place map below both sections*/
+		margin: 1rem auto;
+		width: 100%;
+		
+	}
+
+	.stuff iframe {
+        height: 500px; /* Increase the height for larger screens */
+		width: 100%;
+		
+		
+    }
+	
+	
+    
+}
+
+/* large view navigation ************************************/
+@media (min-width: 37.5em) {
+	h1 {
+		font-size: 2.5rem;
+		margin-left: 0;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 2rem;
+		text-align: center;
+	}
+
+	#menu {
+		display: none; /* hide hamburger button */
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+	.button {
+    
+   
+		position: absolute;
+		top: 270px;
+		left: 20px;
+	}
+
+	
+
+	.button a {
+		margin: 0;
+		padding: .25rem;
+		font-weight: 700;
+		font-size: 3rem;
+		font-family:"Great Vibes", serif;
+	}
+
+
+
+	
+	
+	
+
+}
+
+

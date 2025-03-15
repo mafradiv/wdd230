@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="icon" href="images/favicon.ico" />
   </head>
   <body>
     <header>
@@ -35,12 +36,15 @@
     </header>
     <nav>
       <!--<button id="menu"></button> take out of the comment later-->
+      <button id="menu"></button>
       <ul class="navigation">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="../index.html">Home</a></li>
         <li>
-          <a href="week3/chamber-site-plan.html" target="_blank">Site PLan</a>
+          <a href="../week3/chamber-site-plan.html" target="_blank"
+            >Site PLan</a
+          >
         </li>
-        <li><a href="chamber/index.html" target="_blank">Chamber</a></li>
+        <li><a href="../chamber/index.html">Chamber</a></li>
         <li><a href="https://www.byui.edu" target="_blank">BYU-Idaho</a></li>
         <li>
           <a
@@ -51,10 +55,21 @@
         </li>
       </ul>
     </nav>
-
-    <div><img src="images/hero-small.webp" alt="hero-small" /></div>
-    <div><a href=""></a>Join the Chamber</div>
-
+    <div class="chamber-box">
+      <div class="hero">
+        <picture>
+          <source srcset="images/hero-small.webp" media="(max-width: 500px)" />
+          <source
+            srcset="images/hero-medium.webp"
+            media="(max-width: 1000px)"
+          />
+          <img src="images/hero-large.webp" alt="hero-image" />
+        </picture>
+      </div>
+      <div class="button">
+        <a href="#">Join the chamber</a>
+      </div>
+    </div>
     <main>
       <section>
         <h3>Current Event</h3>
@@ -76,5 +91,9 @@
       <img src="images/instagram.png" alt="instagram" />
       <img src="images/twitter.png" alt="twitter" />
     </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/mobile.js"></script>
+    <script src="scripts/switch.js"></script>
+    <script src="scripts/weather.js"></script>
   </body>
 </html>

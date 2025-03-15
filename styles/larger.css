@@ -30,6 +30,7 @@
 		
     }
 	
+	
     
 }
 
@@ -58,6 +59,26 @@
 		display: block;
 		flex: 1 1 100%;
 	}
+
+	.temple-name {
+    
+   
+		position: absolute;
+		top: 270px;
+		left: 20px;
+	}
+
+	
+
+	.temple-name p {
+		margin: 0;
+		padding: .25rem;
+		font-weight: 700;
+		font-size: 3rem;
+		font-family:"Great Vibes", serif;
+	}
+
+
 
 	
 	

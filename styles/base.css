@@ -1,5 +1,7 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora&family=Open+Sans:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 /*Header Styles*/
 header {
     background-color: #457b9d;
@@ -69,8 +71,7 @@ main {
 
 main section {
 	margin: 0.5rem;
-	
-	
+		
 	background-color: #eee;
 }
 
@@ -258,6 +259,44 @@ footer img {
     margin: 10px;
     margin-bottom: 20px;
 }
+
+/*hero*/
+.hero {
+    position: relative;
+    margin: 10px auto;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.hero img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.temple-name {
+    
+   
+	position: absolute;
+	top: 190px;
+	left: 15px;
+	background: radial-gradient(#fff, #adcad6);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: .75rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+	
+}
+
+.temple-name p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 1.7rem;
+	font-family:"Great Vibes", serif;
+}
+
+
+
 
 /*switch*/
 .switch {
