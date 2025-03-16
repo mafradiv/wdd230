@@ -1,0 +1,46 @@
+{
+    "wardInformation": {
+        "familyName": "Díaz",
+        "moveInDate": "2025-10-09",
+        "numberOfPeople": 7,
+        "visitedByBishopric": true,
+        "familyMembers": [
+            {
+                "name": "Evaristo Díaz",
+                "gender": "Male",
+                "birthdate": "1963-02-23"
+            },
+            {
+                "name": "Alicia Díaz",
+                "gender": "Female",
+                "birthdate": "1973-03-24"
+            },
+            {
+                "name": "Carmen Díaz",
+                "gender": "Female",
+                "birthdate": "1981-05-18"
+            },
+            {
+                "name": "Evaristo Díaz",
+                "gender": "Male",
+                "birthdate": "1963-02-23"
+            },
+            {
+                "name": "Carlos Díaz",
+                "gender": "Male",
+                "birthdate": "1967-04-19"
+            },
+            {
+                "name": "Miguel Díaz",
+                "gender": "Male",
+                "birthdate": "1965-01-25"
+            },
+            {
+                "name": "Gabriel Díaz",
+                "gender": "Male",
+                "birthdate": "1966-09-21"
+            }
+
+        ]
+    }
+}
