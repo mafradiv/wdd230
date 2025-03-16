@@ -61,39 +61,80 @@
         </li>
       </ul>
     </nav>
-    <div class="chamber-box">
-      <div class="hero">
-        <picture>
-          <source srcset="images/hero-small.webp" media="(max-width: 500px)" />
-          <source
-            srcset="images/hero-medium.webp"
-            media="(max-width: 1000px)"
-          />
-          <img src="images/hero-large.webp" alt="hero-image" />
-        </picture>
+    <div class="Join">
+      <div class="form-container">
+        <form action="thankyou.html" method="get">
+          <label
+            >First Name:
+            <input type="text" name="first_name" id="first_name" required />
+          </label>
+          <label
+            >Last Name:
+            <input type="text" name="last_name" id="last_name" required />
+          </label>
+          <label
+            >Title/Position:
+            <input
+              type="text"
+              name="position"
+              id="position"
+              required
+              pattern="[A-Za-z\-\s]{7,}"
+            />
+          </label>
+          <label
+            >Email:
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="example@domain.com"
+            />
+          </label>
+          <label
+            >Mobile Phone:
+            <input type="tel" name="phone" id="phone" required />
+          </label>
+          <label
+            >Business/Organization Name:
+            <input
+              type="text"
+              name="business_name"
+              id="business_name"
+              required
+            />
+          </label>
+          <label
+            >Membership Level:
+            <select name="membership" id="membership">
+              <option value="np">NP Membership (Non-Profit, No Fee)</option>
+              <option value="bronze">Bronze Membership</option>
+              <option value="silver">Silver Membership</option>
+              <option value="gold">Gold Membership</option>
+            </select>
+          </label>
+          <label
+            >Business/Organization Description:
+            <textarea name="description" id="description"></textarea>
+          </label>
+          <input type="hidden" name="timestamp" id="timestamp" />
+          <button class="joinb" type="submit">Submit Application</button>
+        </form>
       </div>
-      <div class="button">
-        <a href="../Chamber/join.html">Join the chamber</a>
+      <div class="benefits-container">
+        <h3>Membership Benefits</h3>
+        <ul>
+          <li><strong>NP Membership:</strong> Access to networking events.</li>
+          <li><strong>Bronze:</strong> Includes basic advertising.</li>
+          <li><strong>Silver:</strong> Includes training & advertising.</li>
+          <li>
+            <strong>Gold:</strong> Includes premium advertising & event
+            discounts.
+          </li>
+        </ul>
       </div>
     </div>
-    <main>
-      <section>
-        <h3>Current Event</h3>
-        <p>Events in the City</p>
-      </section>
-      <section>
-        <h3>Weather</h3>
-        <p>Weather today: <span id="weather">Loading...</span></p>
-        <p>
-          <span class="label">Number Of Visits:</span>
-          <span class="visits"></span>
-        </p>
-      </section>
-      <section>
-        <h3>Advertisement</h3>
-        <p>On Sale:</p>
-      </section>
-    </main>
     <footer>
       <p>&copy; <span id="current-year"></span>Iquitos Chamber</p>
       <img src="images/F.webp" alt="logo" />
