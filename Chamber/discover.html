@@ -50,7 +50,7 @@
           >
         </li>
         <li><a href="../chamber/index.html">Chamber</a></li>
-        <li><a href="../chamber/discover.html">Discover</a></li>
+        <li><a href="../chamber/discover.html"></a></li>
         <li><a href="https://www.byui.edu" target="_blank">BYU-Idaho</a></li>
         <li>
           <a
@@ -61,39 +61,65 @@
         </li>
       </ul>
     </nav>
-    <div class="chamber-box">
-      <div class="hero">
-        <picture>
-          <source srcset="images/hero-small.webp" media="(max-width: 500px)" />
-          <source
-            srcset="images/hero-medium.webp"
-            media="(max-width: 1000px)"
-          />
-          <img src="images/hero-large.webp" alt="hero-image" />
-        </picture>
-      </div>
-      <div class="button">
-        <a href="#">Join the chamber</a>
-      </div>
-    </div>
-    <main>
-      <section>
-        <h3>Current Event</h3>
-        <p>Events in the City</p>
-      </section>
-      <section>
+    <!-- Grid Layout Wrapper -->
+    <div class="container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <h2>Visitor Info</h2>
+        <p class="visit-message"></p>
         <h3>Weather</h3>
         <p>Weather today: <span id="weather">Loading...</span></p>
         <p>
           <span class="label">Number Of Visits:</span>
           <span class="visits"></span>
         </p>
-      </section>
-      <section>
-        <h3>Advertisement</h3>
-        <p>On Sale:</p>
-      </section>
-    </main>
+      </aside>
+      <!-- Main Content -->
+      <main>
+        <section>
+          <h3>Current Event</h3>
+          <p>Events in the City</p>
+        </section>
+        <section class="gallery">
+          <h3>Gallery</h3>
+          <img
+            src="images/pexels-alejandro-om-65594318-11099270 (1).webp"
+            alt="photo1"
+            loading="lazy"
+          />
+          <img
+            src="images/pexels-banananardini-3574590 (1).webp"
+            alt="photo2"
+            loading="lazy"
+          />
+          <img
+            src="images/pexels-cesar-santa-cruz-arevalo-594478815-17992557.webp"
+            alt="photo3"
+            loading="lazy"
+          />
+          <img
+            src="images/pexels-nandofreitasr-17025854 (1).webp"
+            alt="photo4"
+            loading="lazy"
+          />
+          <img
+            src="images/pexels-nandofreitasr-20609598 (1).webp"
+            alt="photo5"
+            loading="lazy"
+          />
+          <img
+            src="images/pexels-nandofreitasr-25650201 (1).webp"
+            alt="photo6"
+            loading="lazy"
+          />
+        </section>
+        <section>
+          <h3>Advertisement</h3>
+          <p>On Sale:</p>
+        </section>
+      </main>
+    </div>
+
     <footer>
       <p>&copy; <span id="current-year"></span>Iquitos Chamber</p>
       <img src="images/F.webp" alt="logo" />

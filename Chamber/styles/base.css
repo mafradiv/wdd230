@@ -71,6 +71,11 @@ section {
     border-radius: 4px;
 }
 
+section p {
+    text-align: center;
+    color: #000;
+}
+
 
 h3 {
     background-color: #457b9d;
@@ -98,6 +103,35 @@ footer {
     margin: 0 auto;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img {
+    
+    margin: 20px 0;
+    opacity: 0;
+    animation: fadeIn 10s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        filter: brightness(0);
+    }
+    to {
+        opacity: 1;
+        filter: brightness(1);
+    }
+}
+
 /*hero*/
 
 .hero {
@@ -116,11 +150,12 @@ footer {
     position: absolute;
 	top: 360px;
 	left: 15px;
-	background: radial-gradient(#fff, #adcad6);
+	background: radial-gradient(#fff, #edf1f3);
 	border: 1px solid rgba(0,0,0,.75);
 	padding: .75rem;
 	box-shadow: 0 0 3rem #fff;
 	opacity: 0.75;
+    
 
 }
 
@@ -129,6 +164,8 @@ footer {
 	padding: .25rem;
 	font-weight: 700;
 	font-size: 1.7rem;
+    color: #000;
+    text-decoration: none;
 }
 
 /* small view navigation */
@@ -197,6 +234,7 @@ footer {
     display: inline-block;
     width: 60px;
     height: 34px;
+    
 }
 
 .switch input {

@@ -110,6 +110,7 @@ h3 {
 .number {
     font-weight: bold;
     margin-right: 5px;
+    color: #000;
 }
 
 .card ul{
@@ -134,6 +135,7 @@ h3 {
 
 .card-info p {
     text-align: center;
+    color: #000;
 }
 
 .stuff{
@@ -293,6 +295,7 @@ footer img {
 	font-weight: 700;
 	font-size: 1.7rem;
 	font-family:"Great Vibes", serif;
+    color: #000;
 }
 
 

@@ -29,6 +29,19 @@
 		
 		
     }
+
+	.container {
+        grid-template-columns: 1fr 3fr; /* Sidebar takes 1/4, main takes 3/4 */
+    }
+
+    .sidebar {
+        grid-row: 1;
+    }
+
+	.gallery img:hover {
+        transform: scale(1.1);
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    }
 	
 	
     
