@@ -1,47 +1,42 @@
-const baseURL = "https://mafradiv.github.io/wdd230/";
-const linksURL = "https://mafradiv.github.io/wdd230/data/links.json";
+const baseURL = "https://yourgithubusername.github.io/wdd230/";
+const linksURL = "data/links.json"; // Local JSON file
 
 async function getLinks() {
-    const response = await fetch(linksURL);
-    const data = await response.json();
-    displayLinks(data);
+  const response = await fetch(linksURL);
+  const data = await response.json();
+  displayLinks(data); // Call displayLinks and pass the data
 }
 
-function displayLinks(weeks) {
-    const container = document.querySelector("#activity-links"); // Fixed ID
+function displayLinks(data) {
+    console.log("Data inside displayLinks:", data); // Debugging
+    
+    const weeks = data.lessons; // Fix: Access the correct array inside the JSON object
 
-    container.innerHTML = ""; // Clear existing content
+    if (!Array.isArray(weeks)) {
+      console.error("Expected an array but got:", weeks);
+      return;
+    }
 
-    weeks.forEach(week => {
-        const listItem = document.createElement("li");
+    const listContainer = document.querySelector("#activity-links");
+    listContainer.innerHTML = ""; // Clear existing content
 
-        // Week number span
-        const weekNumber = document.createElement("span");
-        weekNumber.classList.add("number");
-        weekNumber.textContent = `W${week.week}`;
-        listItem.appendChild(weekNumber);
+    weeks.forEach((week) => {
+      const listItem = document.createElement("li");
+      listItem.textContent = `Week ${week.week}: `;
 
-        // Loop through links
-        week.links.forEach((link, index) => {
-            const anchor = document.createElement("a");
-            anchor.href = link.url;
-            anchor.textContent = link.title;
-            anchor.target = "_blank";
+      week.links.forEach((link, index) => {
+        const anchor = document.createElement("a");
+        anchor.href = link.url;
+        anchor.textContent = link.title;
+        anchor.target = "_blank";
 
-            listItem.appendChild(anchor);
+        listItem.appendChild(anchor);
 
-            // Add a separator unless it's the last link
-            if (index < week.links.length - 1) {
-                const separator = document.createElement("span");
-                separator.classList.add("separator");
-                separator.textContent = " | ";
-                listItem.appendChild(separator);
-            }
-        });
+        if (index < week.links.length - 1) {
+          listItem.appendChild(document.createTextNode(" | "));
+        }
+      });
 
-        container.appendChild(listItem);
+      listContainer.appendChild(listItem);
     });
 }
-
-// Call function to fetch and display links
-getLinks();
