@@ -55,6 +55,15 @@ nav ul li a {
     display: block;
 
 }
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:visited {
+    color: blue; /* Fixed issue where visited links were turning purple instead of staying blue */
+}
+
 
 main {
     display: grid;
@@ -366,4 +375,19 @@ input:checked + .slider:before {
     background-color: #222;
     color: #fff;
 }
+
+/*visited*/
+a:link {
+    color: blue;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: darkblue;
+}
+
 

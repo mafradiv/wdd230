@@ -1,0 +1,157 @@
+{
+    "lessons": [
+        {
+            "lesson": "01",
+            "links": [
+                {
+                    "url":"week1/holygrail.html",
+                    "title":"Holy Layout"
+                
+                }
+            ]
+        },
+
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url":"week2/design.html",
+                    "title":"Design"
+                },
+                {
+                    "url":"week2/media-query.html",
+                    "title":"Media Query"
+                },
+                {
+                    "url":"week2/design-principles.html",
+                    "title":"Design Principles"
+                }
+            ]
+        },
+
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url":"week3/images/Combinators.jpg",
+                    "title":"css Combinators"
+                },
+                {
+                    "url":"https://codepen.io/Basic-English/pen/OPLBYMg",
+                    "title":"Pseudo-Element"
+                },
+                {
+                    "url":"https://codepen.io/Basic-English/pen/xbKQpzy",
+                    "title":"Responsive Hamburger"
+                }
+            ]
+        },
+
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url":"https://codepen.io/Basic-English/pen/PwoYweb",
+                    "title":"Pseudo-Classes"
+                }
+            ]
+        },
+
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url":"week5/bom.html",
+                    "title":"Book of Mormon"
+                }
+            ]
+        },
+
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url":"week6/images/landscape.webp",
+                    "title":"WebP"
+                },
+                {
+                    "url":"week6/responsive-images.html",
+                    "title":"responsive-images"
+                
+                }
+            ]
+        },
+
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "url":"week7/lazyload.html",
+                    "title":"Lazy Load"
+                },
+                {
+                    "url":"week7/bom2.html",
+                    "title":"Book of Mormon favorite"
+                
+                }
+            ]
+        },
+
+        {
+            "lesson": "08",
+            "links": [
+                {
+                    "url":"week8/tablebuild.html",
+                    "title":"Table"
+                },
+                {
+                    "url":"week2/media-query.html",
+                    "title":"Media Query"
+                },
+                {
+                    "url":"week2/design-principles.html",
+                    "title":"Design Principles"
+                }
+            ]
+        },
+
+        {
+            "lesson": "09",
+            "links": [
+                {
+                    "url":"week9/new-ward-members.json",
+                    "title":"New Word Members"
+                },
+                {
+                    "url":"week9/prophets.html",
+                    "title":"Prophets"
+                },
+                {
+                    "url":"week2/design-principles.html",
+                    "title":"Design Principles"
+                }
+            ]
+        },
+
+        {
+            "lesson": "10",
+            "links": [
+                {
+                    "url":"week2/design.html",
+                    "title":"Design"
+                },
+                {
+                    "url":"week2/media-query.html",
+                    "title":"Media Query"
+                },
+                {
+                    "url":"week2/design-principles.html",
+                    "title":"Design Principles"
+                }
+            ]
+        }
+
+        
+        
+    ]
+}
