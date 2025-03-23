@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "TECNOPOR Iquitos",
+            "address": "Av. Iquitos 777, Iquitos, Perú",
+            "phone": "(0051)3308551",
+            "website": "https://distribuidoraiquitos.com.pe/",
+            "image": "quienessomos.jpeg",
+            "membershipLevel": "Gold"
+
+        },
+        {
+            "name": "SECURITAS Iquitos",
+            "address": "Jr. Morona 788 2nd floor, Iquitos, Perú",
+            "phone": "(065) 261-144",
+            "website": "https://www.securitasperu.com/",
+            "image": "securitas.jpg",
+            "membershipLevel": "Silver"
+
+        },
+        {
+            "name": "VISSION CARGO",
+            "address": "Calle Panamá n° 193 – Punchana, Iquitos, Perú",
+            "phone": " (061) 594-837",
+            "website": "https://vissioncargosac.com/index.html",
+            "image": "logo.png",
+            "membershipLevel": "Platinum"
+
+        },
+        {
+            "name": "FERIQUITOS",
+            "address": "Av. Iquitos 777, Lima, Perú",
+            "phone": "(01)4248945",
+            "website": "https://www.feriquitos.com.pe/",
+            "image": "feri.png",
+            "membershipLevel": "Gold"
+
+        },
+        {
+            "name": "SIMA Iquitos",
+            "address": "Av. La Marina Nº 1079, Punchana - Iquitos - PERÚ",
+            "phone": "+51 065-251070 Anexo 1600",
+            "website": "https://www.sima.com.pe/OperationCenter/Iquitos",
+            "image": "sima.jpg",
+            "membershipLevel": "Silver"
+
+        },
+        {
+            "name": "TELESISTEMAS Iquitos",
+            "address": "Calle Samanez Ocampo, 669, Iquitos, Perú",
+            "phone": "(051)965872649",
+            "website": "https://www.telesistemasiquitos.com/",
+            "image": "TELESITEMAS_IQUITOS_EIRL.-removebg-preview-659w.webp",
+            "membershipLevel": "Platinum"
+
+        },
+        {
+            "name": "TRAMAZON DOCTOR",
+            "address": "Calle Sargento Lores 841, Iquitos, Perú",
+            "phone": "(051)959464134",
+            "website": "https://www.tramazondoctor.com/",
+            "image": "Logo-Tramazon-Doctor-1.webp",
+            "membershipLevel": "Gold"
+
+        }
+    ]
+}

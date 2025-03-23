@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iquitos Chamber of Commerce</title>
+    <meta
+      property="og:title"
+      content="Marco F. Diaz V. - WDD 230 - Web Fronted Development - Iquitos Chamber of Commerce"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://data-peru.itp.gob.pe/api/image?slug=geo&memberSlug=iquitos&size=splash"
+    />
+    <meta property="og:url" content="https://mafradiv.github.io/wdd-230/" />
+    <meta
+      property="og:description"
+      content="A website to record the progress and assignments for my programming class"
+    />
+
+    <meta
+      name="description"
+      content="WDD 230 - Web Fronted Development - Marco F. Diaz - Iquitos Chamber of Commerce"
+    />
+    <meta name="author" content="Marco Francisco Diaz Vasquez" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <img src="images/F.webp" alt="image logo" />
+      <h1>Iquitos Chamber of Commerce</h1>
+      <label class="switch"
+        ><input type="checkbox" id="theme-toggle" /><span
+          class="slider round"
+        ></span
+      ></label>
+    </header>
+    <nav>
+      <!--<button id="menu"></button> take out of the comment later-->
+      <button id="menu"></button>
+      <ul class="navigation">
+        <li><a href="../index.html">Home</a></li>
+        <li>
+          <a href="../week3/chamber-site-plan.html" target="_blank"
+            >Site PLan</a
+          >
+        </li>
+        <li><a href="../Chamber/index.html">Chamber</a></li>
+        <li><a href="../Chamber/discover.html">Discover</a></li>
+        <li><a href="https://www.byui.edu" target="_blank">BYU-Idaho</a></li>
+        <li>
+          <a
+            href="https://www.churchofjesuschrist.org/study/scriptures?lang=eng&platform=web"
+            target="_blank"
+            >Scripture</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    
+
+    <main>
+      <section class="directory">
+        <h3>Member Directory</h3>
+    <nav>
+      <button onclick="toggleView('grid')">Grid View</button>
+      <button onclick="toggleView('list')">List View</button>
+    </nav>
+
+    <main class="container">
+      <div id="members" class="grid-view"></div>
+    </main>
+        
+      </section>
+      <section>
+        <h3>Weather</h3>
+        <p>Weather today: <span id="weather">Loading...</span></p>
+        <p>
+          <span class="label">Number Of Visits:</span>
+          <span class="visits"></span>
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; <span id="current-year"></span>Iquitos Chamber</p>
+      <img src="images/F.webp" alt="logo" />
+      <img src="images/facebook.png" alt="facebook" />
+      <img src="images/instagram.png" alt="instagram" />
+      <img src="images/twitter.png" alt="twitter" />
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/mobile.js"></script>
+    <script src="scripts/switch.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/directory.js"></script>
+</html>
