@@ -228,6 +228,12 @@ img {
 	content: "📍 ";
 }
 
+/*temperature*/
+figure {
+    color: #000;
+    text-align: center;
+}
+
 /*switch*/
 .switch {
     position: relative;
