@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif; /* Specifies the font family */
     background-color: #f4f4f4;
     text-align: center;
 }
@@ -35,3 +35,26 @@ img {
     width: 100%;
     height: auto;
 }
+
+header,
+main,
+footer {
+  margin: 1rem; /* Adds margin around these elements */
+  position: relative; /* Allows for absolute positioning of child elements */
+}
+
+#cards, h1, footer {
+    color: #000; /* Sets text color to black */
+    border-bottom: 1px solid #eee; /* Adds a light gray bottom border */
+    text-shadow: 0 0 15px #777; /* Adds a soft shadow around the text */
+    background-color: #aaa;
+    
+  }
+
+  section {
+    background-color: #bed; /* Sets a light blue-green background */
+  }
+
+  img {
+    box-shadow: 0 0 30px #777; /* Adds a soft shadow effect */
+  }
