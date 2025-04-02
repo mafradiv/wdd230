@@ -6,14 +6,14 @@
     <title>Iquitos Chamber of Commerce</title>
     <meta
       property="og:title"
-      content="Marco F. Diaz V. - WDD 230 - Web Fronted Development - Iquitos Chamber of Commerce"
+      content="Marco F. Diaz V. - WDD 230 - Web Frontend Development - Iquitos Chamber of Commerce"
     />
     <meta property="og:type" content="website" />
     <meta
       property="og:image"
       content="https://data-peru.itp.gob.pe/api/image?slug=geo&memberSlug=iquitos&size=splash"
     />
-    <meta property="og:url" content="https://mafradiv.github.io/wdd-230/" />
+    <meta property="og:url" content="https://mafradiv.github.io/wdd230/" />
     <meta
       property="og:description"
       content="A website to record the progress and assignments for my programming class"
@@ -21,7 +21,7 @@
 
     <meta
       name="description"
-      content="WDD 230 - Web Fronted Development - Marco F. Diaz - Iquitos Chamber of Commerce"
+      content="WDD 230 - Web Frontend Development - Marco F. Diaz - Iquitos Chamber of Commerce"
     />
     <meta name="author" content="Marco Francisco Diaz Vasquez" />
     <link rel="stylesheet" href="styles/normalize.css" />
@@ -45,14 +45,14 @@
       <ul class="navigation">
         <li><a href="../index.html">Home</a></li>
         <li>
-          <a href="../week3/chamber-site-plan.html" target="_blank"
+          <a href="../lesson03/chamber-site-plan.html" target="_blank"
             >Site PLan</a
           >
         </li>
         <li><a href="../chamber/index.html">Chamber</a></li>
         <li><a href="../chamber/discover.html">Discover</a></li>
         <li><a href="../chamber/directory.html">Directory</a></li>
-        <li><a href="../chamber/join.html"></a>Join</li>
+        <li><a href="../chamber/join.html">Join</a></li>
       </ul>
     </nav>
     <div class="chamber-box">
@@ -66,23 +66,23 @@
           <img src="images/hero-large.webp" alt="hero-image" />
         </picture>
       </div>
-      <div class="button">
+      <section class="button">
         <a href="../chamber/join.html">Join the chamber</a>
-      </div>
+      </section>
     </div>
     <main>
-      <section>
+      <section class="card-info">
         <h3>Current Event</h3>
         <p>Events in the City</p>
       </section>
-      <section>
+      <section class="card">
         <h3>Weather</h3>
         <p>
           Weather Lima Peru:
           <span id="current-temp"></span>
         </p>
         <figure>
-          <img id="weather-icon" src="" alt="" />
+          <img id="weather-icon" src="" alt="weather icon" />
           <figcaption></figcaption>
         </figure>
         <!-- 3-Day Forecast will be displayed here -->
@@ -101,9 +101,9 @@
     <footer>
       <p>&copy; <span id="current-year"></span>Iquitos Chamber</p>
       <img src="images/F.webp" alt="logo" />
-      <img src="images/facebook.png" alt="facebook" />
-      <img src="images/instagram.png" alt="instagram" />
-      <img src="images/twitter.png" alt="twitter" />
+      <img src="images/facebook.png" alt="Follow us on facebook" />
+      <img src="images/instagram.png" alt="Follow us on instagram" />
+      <img src="images/twitter.png" alt="Follow us on twitter" />
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/mobile.js"></script>

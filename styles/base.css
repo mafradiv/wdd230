@@ -12,6 +12,7 @@ header {
     justify-content: center; /* Center horizontally */
     width: 100%;/*Set a maximum width for the heather*/
     margin: 0 auto; /*Center the header horizontally*/
+    
 }
 
 header img {
@@ -340,12 +341,15 @@ figure {
 
 
 
+
 /*switch*/
 .switch {
-    position: relative;
+    position: absolute;
     display: inline-block;
     width: 60px;
     height: 34px;
+    left: 10px;
+    
 }
 
 .switch input {
