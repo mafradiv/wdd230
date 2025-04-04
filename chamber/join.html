@@ -53,81 +53,87 @@
         <li><a href="../chamber/discover.html">Discover</a></li>
       </ul>
     </nav>
-
-    <div class="Join">
-      <div class="form-container">
-        <form action="thankyou.html" method="get">
-          <label
-            >First Name:
-            <input type="text" name="first_name" id="first_name" required />
-          </label>
-          <label
-            >Last Name:
-            <input type="text" name="last_name" id="last_name" required />
-          </label>
-          <label
-            >Title/Position:
-            <input
-              type="text"
-              name="position"
-              id="position"
-              required
-              pattern="[A-Za-z\-\s]{7,}"
-            />
-          </label>
-          <label
-            >Email:
-            <input
-              type="email"
-              name="email"
-              id="email"
-              required
-              placeholder="example@domain.com"
-            />
-          </label>
-          <label
-            >Mobile Phone:
-            <input type="tel" name="phone" id="phone" required />
-          </label>
-          <label
-            >Business/Organization Name:
-            <input
-              type="text"
-              name="business_name"
-              id="business_name"
-              required
-            />
-          </label>
-          <label
-            >Membership Level:
-            <select name="membership" id="membership">
-              <option value="np">NP Membership (Non-Profit, No Fee)</option>
-              <option value="bronze">Bronze Membership</option>
-              <option value="silver">Silver Membership</option>
-              <option value="gold">Gold Membership</option>
-            </select>
-          </label>
-          <label
-            >Business/Organization Description:
-            <textarea name="description" id="description"></textarea>
-          </label>
-          <input type="hidden" name="timestamp" id="timestamp" />
-          <button class="joinb" type="submit">Submit Application</button>
-        </form>
+    <section class="card-info">
+      <h3>Complete with your information to join the Chamber</h3>
+      <div class="Join">
+        <div class="form-container">
+          <form action="thankyou.html" method="get">
+            <label
+              >First Name:
+              <input type="text" name="first_name" id="first_name" required />
+            </label>
+            <label
+              >Last Name:
+              <input type="text" name="last_name" id="last_name" required />
+            </label>
+            <label
+              >Title/Position:
+              <input
+                type="text"
+                name="position"
+                id="position"
+                required
+                pattern="[A-Za-z\-\s]{7,}"
+              />
+            </label>
+            <label
+              >Email:
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                placeholder="example@domain.com"
+              />
+            </label>
+            <label
+              >Mobile Phone:
+              <input type="tel" name="phone" id="phone" required />
+            </label>
+            <label
+              >Business/Organization Name:
+              <input
+                type="text"
+                name="business_name"
+                id="business_name"
+                required
+              />
+            </label>
+            <label
+              >Membership Level:
+              <select name="membership" id="membership">
+                <option value="np">NP Membership (Non-Profit, No Fee)</option>
+                <option value="bronze">Bronze Membership</option>
+                <option value="silver">Silver Membership</option>
+                <option value="gold">Gold Membership</option>
+              </select>
+            </label>
+            <label
+              >Business/Organization Description:
+              <textarea name="description" id="description"></textarea>
+            </label>
+            <input type="hidden" name="timestamp" id="timestamp" />
+            <button class="joinb" type="submit">
+              I want to be part of the Chamber
+            </button>
+          </form>
+        </div>
+        <div class="benefits-container">
+          <h3>Membership Benefits</h3>
+          <ul>
+            <li>
+              <strong>NP Membership:</strong> Access to networking events.
+            </li>
+            <li><strong>Bronze:</strong> Includes basic advertising.</li>
+            <li><strong>Silver:</strong> Includes training & advertising.</li>
+            <li>
+              <strong>Gold:</strong> Includes premium advertising & event
+              discounts.
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="benefits-container">
-        <h3>Membership Benefits</h3>
-        <ul>
-          <li><strong>NP Membership:</strong> Access to networking events.</li>
-          <li><strong>Bronze:</strong> Includes basic advertising.</li>
-          <li><strong>Silver:</strong> Includes training & advertising.</li>
-          <li>
-            <strong>Gold:</strong> Includes premium advertising & event
-            discounts.
-          </li>
-        </ul>
-      </div>
-    </div>
+    </section>
 
     <footer>
       <p>&copy; <span id="current-year"></span>Iquitos Chamber</p>
