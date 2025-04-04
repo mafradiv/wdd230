@@ -17,12 +17,12 @@ function displayLinks(data) {
       return;
     }
 
-    const listContainer = document.querySelector("#activity-links");
+    const listContainer = document.querySelector("#activity-list");
     listContainer.innerHTML = ""; // Clear existing content
 
     weeks.forEach((week) => {
       const listItem = document.createElement("li");
-      listItem.textContent = `Week ${week.week}: `;
+      listItem.textContent = `Week ${week.lesson}: `;
 
       week.links.forEach((link, index) => {
         const anchor = document.createElement("a");
@@ -40,3 +40,4 @@ function displayLinks(data) {
       listContainer.appendChild(listItem);
     });
 }
+getLinks();
