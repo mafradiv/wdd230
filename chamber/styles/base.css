@@ -13,12 +13,12 @@ header {
 }
 header img {
     height: auto;
-    width: 80px;
+    width: 40px;
 }
 
 header h1 {
     margin-left: 10px;
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -236,10 +236,12 @@ figure {
 
 /*switch*/
 .switch {
-    position: relative;
+    position: absolute;
     display: inline-block;
     width: 60px;
     height: 34px;
+    left: 10px;
+    top: 1px;
     
 }
 
@@ -302,6 +304,10 @@ input:checked + .slider:before {
 }
 
 /*join*/
+.joinform {
+    width: 90%;
+    padding: 10px;
+}
 .join {
     font-family: Arial, sans-serif;
     display: flex;
