@@ -6,14 +6,18 @@
 		
 		
 	}
-	main section:nth-child(3) {
-		grid-column: span 2;
-	}
+	
 	main .directory {
 		grid-column: span 2;
 	}
 
-	
+	#member {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	main#member > section.member-info {
+		grid-column: span 2;
+	}
 	
 
 	.container {
@@ -44,9 +48,7 @@
 		display: block;
 	}
 
-	main section:nth-child(3) {
-		grid-column: span 2;
-	}
+	
 	main .directory {
 		grid-column: span 2;
 	}
