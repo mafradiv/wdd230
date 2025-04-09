@@ -146,9 +146,9 @@ img {
     height: 100%;
 }
 
-.button {
+.joinbutton {
     position: absolute;
-	top: 360px;
+	top: 20px;
 	left: 15px;
 	background: radial-gradient(#fff, #edf1f3);
 	border: 1px solid rgba(0,0,0,.75);
@@ -159,7 +159,7 @@ img {
 
 }
 
-.button a {
+.joinbutton a {
     margin: 0;
 	padding: .25rem;
 	font-weight: 700;

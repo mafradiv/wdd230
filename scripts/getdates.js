@@ -1,7 +1,9 @@
-const Modified = new Date(document.lastModified);
-document.querySelector("#lastModified").innerHTML = Modified;
-const Year = new Date().getFullYear();
-document.querySelector('#current-year').innerHTML = Year + " ";
+const modified = new Date(document.lastModified);
+document.querySelector("#lastModified").textContent = `Last modified: ${modified.toLocaleString()}`;
+
+const year = new Date().getFullYear();
+document.querySelector("#current-year").textContent = `© ${year} `;
+
 // 1️⃣ Initialize display element variable
 const visitsDisplay = document.querySelector(".visits");
 
