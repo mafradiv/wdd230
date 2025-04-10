@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>scooters</title>
+    <link rel="stylesheet" href="styles/final.css" />
+  </head>
+  <body>
+    <div id="tempBanner" class="banner">
+      🌞 High today: <span id="temp-max"></span>°C
+      <button onclick="this.parentElement.style.display='none'">✖</button>
+    </div>
+
+    <header>
+      <h1>Welcome to Scoots 🛵</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="rentals.html">Rentals</a>
+        <a href="reservations.html">Reservations</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <div class="scooters">
+      <div class="hero">
+        <picture>
+          <source src="images/small.webp" media="(max-width: 800px)" />
+          <img src="images/large.webp" alt="cozumel" />
+        </picture>
+      </div>
+    </div>
+
+    <main>
+      <section class="cta">
+        <h2>Book Your Island Adventure Today!</h2>
+        <a href="reservations.html" class="btn">Reserve Now</a>
+      </section>
+
+      <section class="summary">
+        <h3>Rental Options</h3>
+        <ul>
+          <li>🛵 Scooters (49cc–150cc)</li>
+          <li>🚙 Jeeps (2-door & 4-door)</li>
+          <li>🏝️ Side-by-Side ATVs</li>
+        </ul>
+      </section>
+
+      <section class="weather">
+        <h3>Current Cozumel Weather</h3>
+        <p>
+          <strong>Now:</strong> <span id="weather-main"></span>
+          <span id="weather-icon"></span>
+        </p>
+        <p>Description: <span id="weather-desc"></span></p>
+        <p>
+          Temp: <span id="weather-temp"></span>°C | Humidity:
+          <span id="weather-humidity"></span>%
+        </p>
+        <p>Tomorrow @ 3PM: <span id="weather-forecast"></span>°C</p>
+      </section>
+
+      <footer>
+        <p>Contact us on <a href="#">Facebook</a>, <a href="#">Instagram</a></p>
+      </footer>
+    </main>
+    <script src="../finalproject/scripts/final.js"></script>
+  </body>
+</html>

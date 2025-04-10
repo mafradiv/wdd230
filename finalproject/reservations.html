@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservation</title>
+    <link rel="stylesheet" href="styles/final.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Scoots 🛵</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="rentals.html">Rentals</a>
+        <a href="reservations.html">Reservations</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <form>
+      <label for="date">Rental Date:</label>
+      <input type="date" id="date" required />
+
+      <label for="period">Rental Period:</label>
+      <select id="period">
+        <option>Half Day</option>
+        <option>Full Day</option>
+      </select>
+
+      <label for="rentalType">Rental Type:</label>
+      <select id="rentalType">
+        <option>Scooter</option>
+        <option>ATV</option>
+        <option>Jeep</option>
+      </select>
+
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required />
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" required />
+
+      <label for="country">Home Country/State:</label>
+      <input type="text" id="country" required />
+
+      <label for="cruise">Cruise Line (if applicable):</label>
+      <input type="text" id="cruise" />
+
+      <label for="comments">Special Accommodations:</label>
+      <textarea id="comments"></textarea>
+
+      <button type="submit">Submit Reservation</button>
+      <footer>
+        <p>Contact us on <a href="#">Facebook</a>, <a href="#">Instagram</a></p>
+      </footer>
+    </form>
+  </body>
+</html>

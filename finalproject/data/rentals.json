@@ -1,0 +1,51 @@
+[
+    {
+      "type": "Honda Metro Scooter",
+      "maxPersons": 1,
+      "halfDayRes": 20,
+      "fullDayRes": 30,
+      "halfDayWalk": 25,
+      "fullDayWalk": 35
+    },
+    {
+      "type": "Honda Dio Scooter",
+      "maxPersons": 2,
+      "halfDayRes": 30,
+      "fullDayRes": 40,
+      "halfDayWalk": 35,
+      "fullDayWalk": 45
+    },
+    {
+      "type": "Honda PCX150 Scooter",
+      "maxPersons": 2,
+      "halfDayRes": 40,
+      "fullDayRes": 50,
+      "halfDayWalk": 45,
+      "fullDayWalk": 55
+    },
+    {
+      "type": "Honda Pioneer ATV",
+      "maxPersons": 4,
+      "halfDayRes": 50,
+      "fullDayRes": 70,
+      "halfDayWalk": 60,
+      "fullDayWalk": 80
+    },
+    {
+      "type": "Jeep Wrangler - 4 door",
+      "maxPersons": 5,
+      "halfDayRes": 70,
+      "fullDayRes": 100,
+      "halfDayWalk": 85,
+      "fullDayWalk": 125
+    },
+    {
+      "type": "Jeep Wrangler - 2 door",
+      "maxPersons": 4,
+      "halfDayRes": 60,
+      "fullDayRes": 85,
+      "halfDayWalk": 70,
+      "fullDayWalk": 90
+    }
+  ]
+  
