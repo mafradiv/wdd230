@@ -161,6 +161,61 @@ img {
     opacity: 0;
     animation: fadeIn 5s ease-in-out forwards;
 }
+
+footer img {
+  vertical-align: middle;
+  margin-left: 5px;
+  margin: 10px;
+  margin-bottom: 20px;
+  height: auto;
+  width: 40px;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto 0;
+}
+
+.footer-left, .footer-right {
+  flex: 1;
+  min-width: 250px;     
+  margin: 10px;
+
+}
+.footer-left {
+  display: flex;  
+
+
+}
+
+.footer-left img {
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 80px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  color: yellow;
+  font-size: .9em;
+}
+
+.footer-bottom .name {
+      font-weight: bold;
+      color: #ff0;
+}
 @keyframes fadeIn {
     from {
         opacity: 0;
